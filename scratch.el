@@ -1,3 +1,5 @@
+;; Replace scratch buffer by mode-specific scratch buffers
+
 (when (get-buffer "*scratch*")
   (kill-buffer "*scratch*"))
 
@@ -66,62 +68,4 @@ _j_ava-mode    emacs-_l_isp-mode    _s_h-mode
 
 (global-set-key (kbd "C-c s") 'hydra-global-scratch/body)
 
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-69 fewer lines; before #2  7 seconds ago
-
+(provide 'scratchy)
